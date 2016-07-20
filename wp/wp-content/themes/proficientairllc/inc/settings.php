@@ -22,11 +22,13 @@ function proficientairllc_theme_settings(){
 
 
 	// EDITBYSCOTT	
-siteorigin_settings_add_field( 'general', 'site_phone_number', 'text', __( 'Site Phone Number', 'vantage' ), array(
-		'description' => __( "The Phone Number to display in the masthead area.", 'vantage' )
+siteorigin_settings_add_field( 'general', 'site_phone_number', 'text', __( 'Site Phone Number', 'proficientairllc' ), array(
+		'description' => __( "The Phone Number to display in the masthead area.", 'proficientairllc' )
 	) );
 
-
+siteorigin_settings_add_field( 'general', 'site_tagline', 'text', __( 'Company Tagline', 'proficientairllc' ), array(
+    'description' => __( "The Tagline to display in the masthead area.", 'proficientairllc' )
+) );
 
 }
 add_action('siteorigin_settings_init', 'proficientairllc_theme_settings');

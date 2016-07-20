@@ -16,7 +16,7 @@ function proficientairllc_enqueue_styles() {
 
 
 // Include all the SiteOrigin extras
-include get_template_directory() . '/inc/settings.php';
+include 'inc/settings.php';
 
 
 // Load the theme specific files

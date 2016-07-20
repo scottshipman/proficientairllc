@@ -614,6 +614,27 @@ body.ie-9 #masthead .hgroup #header-sidebar {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+#header-tagline {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+.tagline {
+    margin-top: 1.6em;
+    font-family: serif;
+    font-size: 2em;
+    color: #0c5594;
+    font-style: oblique;
+    line-height: 1.1em;
+}
+
+.phone-number {
+    margin-right: 2em;
+    font-size: 2em;
+}
+
 #main {
   zoom: 1;
 }
@@ -712,6 +733,11 @@ body.sidebar-position-none #secondary {
 /* =Responsive Layout
 ----------------------------------------------- */
 @media (max-width: 1080px) {
+
+    .tagline {
+        margin-top: .5em;
+        font-size: 1.1em;
+    }
   body.responsive #masthead .hgroup .logo img {
     /* Scale down the logo if necessary */
     max-width: 100%;
@@ -769,6 +795,16 @@ body.sidebar-position-none #secondary {
 }
 /* We consider 680px to be mobile resolution */
 @media (max-width: 680px) {
+
+  .tagline {
+      margin-top: .5em;
+      font-size: 1.4em;
+  }
+
+    .phone-number {
+      margin:0;
+      margin-bottom:.5em;
+  }
   body.responsive #masthead .hgroup {
     text-align: center;
   }
