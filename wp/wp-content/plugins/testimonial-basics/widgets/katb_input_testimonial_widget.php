@@ -455,7 +455,6 @@ class katb_input_testimonial_widget extends WP_Widget {
 			<?php } ?>
 			
 			<form method="POST">
-				
 				<?php wp_nonce_field('katb_nonce_2','katb_widget_form_nonce'.$katb_widget_input_form_no); ?>
 				<div style="display:none"><label class="katb_widget_input_label">Salutation<input class="katb_input" type="text" name="tb_salutation" value=""></span></div>
 				<?php if( $labels_above == 1 ){ echo '<label class="katb_widget_input_label">'.sanitize_text_field($author_label_widget).'</label>'; } ?>
