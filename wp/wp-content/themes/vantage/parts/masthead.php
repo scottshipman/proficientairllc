@@ -12,16 +12,6 @@
 
 			<div id="header-sidebar" <?php if( siteorigin_setting('logo_no_widget_overlay') ) echo 'class="no-logo-overlay"' ?>>
 				<?php
-					$vantage_settings = get_option('vantage_theme_settings');
-					$phone_number = esc_attr($vantage_settings['general_site_phone_number']);
-				?>
-				<div class="phone-number">
-					<a href="tel:<?php echo preg_replace('/[^0-9]/','',$phone_number); ?>">
-						<i class="fa fa-phone" aria-hidden="true"></i>
-						<?php echo $phone_number; ?>
-					</a>
-				</div>
-				<?php
 				// Display the header area sidebar, and tell mobile navigation that we can use menus in here
 				add_filter('siteorigin_mobilenav_is_valid', '__return_true');
 				dynamic_sidebar( 'sidebar-header' );

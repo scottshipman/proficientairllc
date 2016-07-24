@@ -1,7 +1,7 @@
 /*
 Theme Name: Proficient Air LLC
 Author: Scott Shipman
-Template: Vantage
+Template: vantage
 Author URI: http://ibuilddrupalsites.com/
 Theme URI: http://ibuilddrupalsites.com/
 Description: Based off of Vantage, a flexible multipurpose theme. Its strength lies in its tight integration with some powerful plugins like Page Builder for responsive page layouts, MetaSlider for big beautiful sliders and WooCommerce to help you sell online. Vantage is fully responsive and retina ready. Use it to start a business site, portfolio or online store. We offer free and premium support on our support <a href="http://siteorigin.com/thread/">forums</a> (http://siteorigin.com/thread/).
@@ -3756,4 +3756,43 @@ span.jwcontrols span button {
   width: auto;
   z-index: 100000;
   /* Above WP toolbar. */
+}
+
+/***** TESTIMONIALS*******/
+
+.katb-paypal {display:none;}
+.katb_admin_edit_wrap p {
+    display: none;
+}
+
+.katb_meta_bottom .katb_author{
+    float:right;
+}
+
+.katb_test_text_basic {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+.katb_test_text_basic:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+.katb_test_text_basic:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.6em;
+}
+
+.katb_test_text_basic p {
+    display: inline;
 }
