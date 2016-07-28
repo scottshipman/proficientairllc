@@ -27,6 +27,10 @@ function proficientairllc_theme_settings(){
         'description' => __( "The Tagline to display in the masthead area.", 'proficientairllc' )
     ) );
 
+    $settings->add_field( 'general', 'site_contractor_number', 'text', __( 'Company License Number', 'proficientairllc' ), array(
+        'description' => __( "The License Number to display in the masthead area.", 'proficientairllc' )
+    ) );
+
 	// EDITBYSCOTT	
 //siteorigin_settings_add_field( 'general', 'site_phone_number', 'text', __( 'Site Phone Number', 'proficientairllc' ), array(
 //		'description' => __( "The Phone Number to display in the masthead area.", 'proficientairllc' )

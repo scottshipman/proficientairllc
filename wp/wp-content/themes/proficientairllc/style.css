@@ -479,6 +479,15 @@ body {
     margin-bottom: 0;
   }
 }
+
+#license-number {
+    clear: left;
+    float: left;
+    margin-left: 2em;
+    font-size: 1.3em;
+    color: #0c5594;
+}
+
 #masthead {
   background: #fcfcfc;
   padding: 0 35px 0 35px;
@@ -622,7 +631,7 @@ body.ie-9 #masthead .hgroup #header-sidebar {
 }
 
 .tagline {
-    margin-top: 1.6em;
+    margin-top: 2em;
     font-family: serif;
     font-size: 2em;
     color: #0c5594;

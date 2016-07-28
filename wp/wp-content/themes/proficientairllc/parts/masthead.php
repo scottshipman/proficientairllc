@@ -4,14 +4,19 @@
  */
 ?>
 <header id="masthead" class="site-header" role="banner">
-
+    <?php
+    $theme_settings = get_option('theme_mods_proficientairllc');
+    $tagline_option = get_option('vantage_theme_settings');
+    $license = esc_attr($theme_settings['theme_settings_general_site_contractor_number']);
+    ?>
 	<div class="hgroup full-container">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="logo"><?php vantage_display_logo(); ?></a>
-
+		<div id="logo-container">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="logo"><?php vantage_display_logo(); ?></a>
+            <div id="license-number"><em>lic no: </em><?php echo $license; ?></div>
+        </div>
             <div id="header-tagline"  <?php if( siteorigin_setting('logo_no_widget_overlay') ) echo 'class="no-logo-overlay"' ?>>
                 <?php
-                $theme_settings = get_option('vantage_theme_settings');
-                $tagline = esc_attr($theme_settings['general_site_tagline']);
+                $tagline = esc_attr($tagline_option['general_site_tagline']);
                 ?>
                 <div class="tagline">
                         <?php echo $tagline; ?>
@@ -22,7 +27,7 @@
 
 			<div id="header-sidebar" <?php if( siteorigin_setting('logo_no_widget_overlay') ) echo 'class="no-logo-overlay"' ?>>
 				<?php
-					$phone_number = esc_attr($theme_settings['general_site_phone_number']);
+					$phone_number = esc_attr($theme_settings['theme_settings_general_site_phone_number']);
 				?>
 				<div class="phone-number">
 					<a href="tel:<?php echo preg_replace('/[^0-9]/','',$phone_number); ?>">
