@@ -1,0 +1,76 @@
+//-------------------------------
+// Facebook Widget Frontend: Business Profile SCSS
+//-------------------------------
+
+[id^=fb-widget] .facebook-business-info {
+
+  border-bottom:2px solid #EBEBEB;
+  padding:0;
+  margin: 0 0 20px;
+
+  &.fbw-hide-reviews {
+	border-bottom:none;
+  }
+
+  .biz-img-wrap {
+	float: left;
+	margin: 0;
+  }
+
+  .facebook-business-name-wrap {
+	line-height: 22px;
+	font-weight: bold;
+	margin: 0 0 5px;
+	font-size: 18px;
+  }
+
+  //FB Logo
+  .facebook-logo-link-wrap {
+	height: 14px;
+	margin: 6px 0 0 2px;
+	line-height: 12px;
+	img {
+	  box-shadow:none;
+	}
+  }
+
+  .facebook-review-rating {
+	margin-left: 0;
+	margin-right: 5px;
+  }
+
+  .review-count, .no-reviews-link {
+	font-style: italic;
+	font-size: 13px;
+	line-height: 24px;
+	height:24px;
+  }
+
+
+  &.fwp-size-40 .fb-widget-business-info {
+	margin: 0 0 20px 55px;
+  }
+  &.fwp-size-60 .fb-widget-business-info {
+	margin: 0 0 20px 75px;
+  }
+  &.fwp-size-80 .fb-widget-business-info {
+	margin: 0 0 20px 95px;
+  }
+  &.fwp-size-100 .fb-widget-business-info {
+	margin: 0 0 20px 115px;
+  }
+
+  &.fbw-hide-reviews .fb-widget-business-info {
+	border-bottom:none;
+  }
+
+  //Address
+  .facebook-address-wrap {
+	margin: 0 0 25px;
+	address {
+	  margin: 0;
+	  padding: 0;
+	}
+  }
+
+}

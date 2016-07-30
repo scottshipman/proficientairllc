@@ -1,0 +1,200 @@
+/*
+ * Styles for the Facebook Reviews Pro options panel
+ */
+
+//-------------------------------------
+// Heading
+//-------------------------------------
+#icon-facebook {
+  background: url('../images/facebook-logo-transparent-icon.png') no-repeat 0 0 transparent;
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  margin-top: 7px;
+  + h2 {
+	line-height: 32px;
+  }
+
+}
+
+#fwp-title-wrap {
+  position: relative;
+
+  .label {
+	position: absolute;
+	top: 8px;
+	right: 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 6px 10px;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: #999;
+	cursor: default;
+  }
+
+  .label-success {
+	border-color: #5AAD34;
+	background-color: #78CD51;
+  }
+
+}
+
+//-------------------------------------
+// Introduction
+//-------------------------------------
+#facebook-widget-intro {
+  .introduction {
+	font-size: 18px;
+	font-style: italic;
+  }
+
+}
+
+//-------------------------------------
+// API Options
+//-------------------------------------
+#api-options {
+
+  #fb_login_button {
+	text-align: center;
+
+	a.facebook-connect-button {
+	  padding: 10px 35px;
+	  margin: 20px 10px 0;
+	  height: auto;
+	  font-size: 1.3em;
+	  float: none;
+	  display: block;
+	}
+
+  }
+  .facebook-access-pages-label {
+	font-style: italic;
+	font-size: 14px;
+	margin: 0 0 15px;
+	display: block;
+  }
+
+  //List of Facebook Pages
+  .facebook-page-preview-wrap {
+	overflow: hidden;
+	margin: 0 0 20px;
+
+	a, a:focus, a:hover, a > span {
+	  outline:none;
+	  box-shadow:none;
+	  text-decoration:none;
+	}
+
+	.facebook-page-avatar {
+	  float: left;
+	}
+
+	.facebook-page-name {
+	  font-size: 16px;
+	  padding: 15px 0 15px 15px;
+	  margin: 0;
+	  display: inline-block;
+	  font-weight: bold;
+	}
+
+  }
+
+}
+
+//-------------------------------------
+// Other
+//-------------------------------------
+.wordimpress-link {
+  background: url('../images/wordimpress-logo.png') no-repeat center center transparent;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 75px;
+  width: 190px;
+}
+
+.wip-buttons a {
+  outline: none;
+}
+
+.wip-buttons img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bundle-link {
+  display: block;
+  text-align: center;
+  margin: 0 auto 15px;
+  background-size: contain;
+}
+
+/*----------------------------------------
+ Premium License Metabox
+ ----------------------------------------*/
+
+#facebook-licence {
+  .notice {
+	font-weight: bold;
+	font-size: 18px;
+	color: green;
+  }
+  .inside {
+	padding-bottom: 0;
+  }
+}
+
+.licence-input, .activate-license-btn {
+  width: 100%;
+  display: block;
+  margin-bottom: 0;
+}
+
+.licence-input {
+  margin-bottom: 5px;
+}
+
+#facebook-widget-pro-premium .wrap p:first-of-type::after {
+  content: ' http://wordimpress.com';
+}
+
+.new-window {
+  background: url('../images/new-window-icon.png') no-repeat right 3px transparent;
+  padding-right: 13px;
+}
+
+/* Sidebar Sortables */
+
+#sidebar-sortables .postbox {
+  min-width: auto;
+}
+
+/* Social Media */
+
+.social-items-wrap > div {
+  display: inline-block;
+}
+
+.google-plus {
+  margin-left: 20px;
+  display: inline;
+}
+
+/* Metaboxes */
+.js .postbox .hndle {
+  cursor: default;
+}
+
+.handlediv {
+  display: none;
+}

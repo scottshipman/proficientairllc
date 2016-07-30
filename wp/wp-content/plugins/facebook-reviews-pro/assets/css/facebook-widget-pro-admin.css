@@ -1,0 +1,466 @@
+/*
+ * Styles specifically for the Facebook Reviews Pro widget in the WP admin interface
+ * Is only loaded on widgets.php
+ */
+.facebook-toggler {
+  padding: 10px;
+  margin: 0 0 10px;
+  cursor: pointer;
+  background-color: #EBEBEB;
+  border: 1px solid #E5E5E5;
+  display: block; }
+
+.facebook-toggler span {
+  background: url("../images/arrows.png") no-repeat 60% -107px;
+  float: right;
+  height: 12px;
+  display: inline-block;
+  width: 12px; }
+
+.facebook-toggler.toggled span {
+  background-position: 60% 1px; }
+
+.toggle-item, .reviews-toggle-container {
+  display: none; }
+
+.toggle-item p {
+  padding: 0;
+  margin: 0 0 10px; }
+
+.toggle-item.toggled, .reviews-toggle-container.toggled {
+  display: block; }
+
+.fwp-clear-cache {
+  float: left; }
+
+.cache-clearing-loading.spinner {
+  float: left;
+  visibility: visible;
+  display: none; }
+
+.cache-message {
+  float: right;
+  max-width: 160px;
+  font-style: italic;
+  color: green;
+  display: none; }
+
+.widget-api-option {
+  line-height: 22px; }
+
+.toggle-item select {
+  background: #FFF; }
+
+.facebook-method-span:hover, .search-api-option:hover, .business-api-option:hover {
+  cursor: pointer; }
+
+.facebook-method-label {
+  padding-left: 4px; }
+
+.new-window {
+  background: url("../images/new-window-icon.png") no-repeat right 3px transparent;
+  padding-right: 16px; }
+
+.fwp-radio-label {
+  margin: 0 0 5px;
+  display: block; }
+
+.fwp-widget-footer-links {
+  font-style: italic; }
+
+.fwp-widget-footer-links a {
+  margin-right: 10px; }
+
+p.facebook-pages-reload {
+  font-size: 12px;
+  font-style: italic;
+  margin: -5px 0 15px;
+  color: #909090; }
+
+.clearfix {
+  *zoom: 1; }
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0; }
+
+.clearfix:after {
+  clear: both; }
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  box-sizing: border-box; }
+
+.clickable + .toggle-item {
+  padding: 0 5px; }
+
+/*----------------------------------------
+Toggle Tips
+-------------------------------------------*/
+.tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  visibility: visible;
+  padding: 5px;
+  font-size: 11px;
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+.tooltip.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80); }
+
+.tooltip.top {
+  margin-top: -3px; }
+
+.tooltip.right {
+  margin-left: 3px; }
+
+.tooltip.bottom {
+  margin-top: 3px; }
+
+.tooltip.left {
+  margin-left: -3px; }
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px; }
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid; }
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000; }
+
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000000; }
+
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000; }
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000; }
+
+/**
+ * Styles for the Facebook Reviews Pro options panel
+ */
+.alert {
+  padding: 8px 14px;
+  margin-bottom: 10px;
+  color: #c09853;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  border-radius: 4px; }
+  .alert p {
+    margin: 0; }
+
+.alert-red {
+  color: #B94A48;
+  background-color: #F2DEDE;
+  border-color: #EED3D7; }
+  .alert-red a {
+    color: #B94A48 !important; }
+
+.alert-success {
+  color: #468847;
+  background-color: #DFF0D8;
+  border-color: #D6E9C6; }
+
+.alert-info {
+  color: #3A87AD;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1; }
+
+/*
+ * Styles for the Facebook Reviews Pro options panel
+ */
+#icon-facebook {
+  background: url("../images/facebook-logo-transparent-icon.png") no-repeat 0 0 transparent;
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  margin-top: 7px; }
+  #icon-facebook + h2 {
+    line-height: 32px; }
+
+#fwp-title-wrap {
+  position: relative; }
+  #fwp-title-wrap .label {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #FFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999;
+    cursor: default; }
+  #fwp-title-wrap .label-success {
+    border-color: #5AAD34;
+    background-color: #78CD51; }
+
+#facebook-widget-intro .introduction {
+  font-size: 18px;
+  font-style: italic; }
+
+#api-options #fb_login_button {
+  text-align: center; }
+  #api-options #fb_login_button a.facebook-connect-button {
+    padding: 10px 35px;
+    margin: 20px 10px 0;
+    height: auto;
+    font-size: 1.3em;
+    float: none;
+    display: block; }
+
+#api-options .facebook-access-pages-label {
+  font-style: italic;
+  font-size: 14px;
+  margin: 0 0 15px;
+  display: block; }
+
+#api-options .facebook-page-preview-wrap {
+  overflow: hidden;
+  margin: 0 0 20px; }
+  #api-options .facebook-page-preview-wrap a, #api-options .facebook-page-preview-wrap a:focus, #api-options .facebook-page-preview-wrap a:hover, #api-options .facebook-page-preview-wrap a > span {
+    outline: none;
+    box-shadow: none;
+    text-decoration: none; }
+  #api-options .facebook-page-preview-wrap .facebook-page-avatar {
+    float: left; }
+  #api-options .facebook-page-preview-wrap .facebook-page-name {
+    font-size: 16px;
+    padding: 15px 0 15px 15px;
+    margin: 0;
+    display: inline-block;
+    font-weight: bold; }
+
+.wordimpress-link {
+  background: url("../images/wordimpress-logo.png") no-repeat center center transparent;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 75px;
+  width: 190px; }
+
+.wip-buttons a {
+  outline: none; }
+
+.wip-buttons img {
+  max-width: 100%;
+  height: auto; }
+
+.bundle-link {
+  display: block;
+  text-align: center;
+  margin: 0 auto 15px;
+  background-size: contain; }
+
+/*----------------------------------------
+ Premium License Metabox
+ ----------------------------------------*/
+#facebook-licence .notice {
+  font-weight: bold;
+  font-size: 18px;
+  color: green; }
+
+#facebook-licence .inside {
+  padding-bottom: 0; }
+
+.licence-input, .activate-license-btn {
+  width: 100%;
+  display: block;
+  margin-bottom: 0; }
+
+.licence-input {
+  margin-bottom: 5px; }
+
+#facebook-widget-pro-premium .wrap p:first-of-type::after {
+  content: ' http://wordimpress.com'; }
+
+.new-window {
+  background: url("../images/new-window-icon.png") no-repeat right 3px transparent;
+  padding-right: 13px; }
+
+/* Sidebar Sortables */
+#sidebar-sortables .postbox {
+  min-width: auto; }
+
+/* Social Media */
+.social-items-wrap > div {
+  display: inline-block; }
+
+.google-plus {
+  margin-left: 20px;
+  display: inline; }
+
+/* Metaboxes */
+.js .postbox .hndle {
+  cursor: default; }
+
+.handlediv {
+  display: none; }
+
+/*----------------------------------------
+Tipsy
+-------------------------------------------*/
+.tooltip-info {
+  cursor: help;
+  margin: -3px 0 0 5px;
+  position: relative;
+  top: 3px; }
+
+.tipsy {
+  font-size: 10px;
+  position: absolute;
+  padding: 5px;
+  z-index: 100000; }
+
+.tipsy-inner {
+  background-color: #000;
+  color: #FFF;
+  max-width: 200px;
+  padding: 5px 8px 4px 8px;
+  text-align: center; }
+
+/* Rounded corners */
+.tipsy-inner {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px; }
+
+/* Uncomment for shadow */
+/*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+.tipsy-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 5px dashed #000; }
+
+/* Rules to colour arrows */
+.tipsy-arrow-n {
+  border-bottom-color: #000; }
+
+.tipsy-arrow-s {
+  border-top-color: #000; }
+
+.tipsy-arrow-e {
+  border-left-color: #000; }
+
+.tipsy-arrow-w {
+  border-right-color: #000; }
+
+.tipsy-n .tipsy-arrow {
+  top: 0px;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent; }
+
+.tipsy-nw .tipsy-arrow {
+  top: 0;
+  left: 10px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent; }
+
+.tipsy-ne .tipsy-arrow {
+  top: 0;
+  right: 10px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent; }
+
+.tipsy-s .tipsy-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent; }
+
+.tipsy-sw .tipsy-arrow {
+  bottom: 0;
+  left: 10px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent; }
+
+.tipsy-se .tipsy-arrow {
+  bottom: 0;
+  right: 10px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent; }
+
+.tipsy-e .tipsy-arrow {
+  right: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-left-style: solid;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent; }
+
+.tipsy-w .tipsy-arrow {
+  left: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-right-style: solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent; }
+
+/*# sourceMappingURL=facebook-widget-pro-admin.css.map */

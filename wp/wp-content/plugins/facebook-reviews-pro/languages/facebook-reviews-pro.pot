@@ -1,0 +1,666 @@
+# Copyright (C) 2016 WordImpress
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Facebook Reviews Pro 1.0\n"
+"Report-Msgid-Bugs-To: https://givewp.com/\n"
+"POT-Creation-Date: 2016-04-06 23:08:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP-Translations (http://wp-translations.org/)\n"
+"Language-Team: WP-Translations <wpt@wp-translations.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/shortcode-generator.php:263
+msgid "1"
+msgstr ""
+
+#: includes/shortcode-generator.php:262
+msgid "2"
+msgstr ""
+
+#: includes/shortcode-generator.php:261
+msgid "3"
+msgstr ""
+
+#: includes/shortcode-generator.php:260
+msgid "4"
+msgstr ""
+
+#: includes/shortcode-generator.php:259
+msgid "5"
+msgstr ""
+
+#: assets/js/admin/editor_plugin_lang.php:5
+msgid "Add Facebook Reviews"
+msgstr ""
+
+#: includes/notice.php:312
+msgid "Thank you for installing Facebook Reviews Pro"
+msgstr ""
+
+#: includes/notice.php:318
+msgid "Go to Settings"
+msgstr ""
+
+#: includes/notice.php:326
+msgid "View Plugin Documentation"
+msgstr ""
+
+#: includes/notice.php:342
+msgid "Get notified of plugin updates:"
+msgstr ""
+
+#: includes/options-page.php:13 includes/options.php:113
+msgid "Facebook Reviews Pro Settings"
+msgstr ""
+
+#: includes/options-page.php:14 includes/options.php:182
+msgid "Premium Version"
+msgstr ""
+
+#: includes/options-page.php:31
+msgid ""
+"Thank you for choosing Facebook Reviews Pro. This plugin allows you to "
+"display Facebook Page reviews on your WordPress website with a flexible "
+"widget and shortcode."
+msgstr ""
+
+#: includes/options-page.php:34
+msgid "Facebook Reviews Pro Activation Instructions:"
+msgstr ""
+
+#: includes/options-page.php:38
+msgid ""
+"Activate your license for Facebook Widget Pro using the metabox to the "
+"right. This ensures you will have access to support and plugin updates."
+msgstr ""
+
+#: includes/options-page.php:39
+msgid ""
+"Once your license is activated, sign into Facebook or create an account if "
+"you do not have one already. Please note: your Facebook user will need to "
+"be an administrator of the page you want to display reviews due to the way "
+"Facebook's API security is handled."
+msgstr ""
+
+#: includes/options-page.php:40
+msgid "Click the button below to connect to Facebook."
+msgstr ""
+
+#: includes/options-page.php:41
+msgid ""
+"You will be redirected to Facebook and asked to authorize the WordImpress "
+"App. Please accept the authorization. Don't worry, it will never access any "
+"private data or post anything to your facebook pages."
+msgstr ""
+
+#: includes/options-page.php:42
+msgid ""
+"When you return from Facebook, you should see a list of your Facebook pages "
+"in the metabox below."
+msgstr ""
+
+#: includes/options-page.php:43
+msgid ""
+"If you see the list of pages, you are ready to use the plugin! You can now "
+"add the widget to your sidebars or use a shortcode. Click \"Reload Pages\" "
+"to update the list of pages or \"Disconnect\" to connect again."
+msgstr ""
+
+#: includes/options-page.php:47
+msgid "Like this plugin?  Give it a like on Facebook:"
+msgstr ""
+
+#: includes/options-page.php:104
+msgid "Facebook is Connected"
+msgstr ""
+
+#: includes/options-page.php:107
+msgid "Facebook is Not Connected"
+msgstr ""
+
+#: includes/options-page.php:116
+msgid "Connect to Facebook"
+msgstr ""
+
+#: includes/options-page.php:123
+msgid "Accessible Pages:"
+msgstr ""
+
+#: includes/options-page.php:146 includes/widget-form.php:33
+msgid "Reload Pages"
+msgstr ""
+
+#: includes/options-page.php:147
+msgid "Disconnect"
+msgstr ""
+
+#: includes/options-page.php:179
+msgid "Need Support?"
+msgstr ""
+
+#: includes/options-page.php:182
+msgid ""
+"If you have any problems with this plugin or ideas for improvements or "
+"enhancements, please contact %1$sWordImpress support%2$s."
+msgstr ""
+
+#: includes/options-page.php:218
+msgid "Are you sure you want to disconnect from Facebook?"
+msgstr ""
+
+#: includes/options.php:114
+msgid "Fb Reviews Pro"
+msgstr ""
+
+#: includes/options.php:181
+msgid "Rate Facebook Reviews Pro"
+msgstr ""
+
+#: includes/options.php:181
+msgid "Rate Plugin"
+msgstr ""
+
+#: includes/options.php:199
+msgid "Support"
+msgstr ""
+
+#: includes/options.php:207
+msgid "Settings"
+msgstr ""
+
+#: includes/options.php:280
+msgid "None"
+msgstr ""
+
+#: includes/options.php:281
+msgid "1 Hour"
+msgstr ""
+
+#: includes/options.php:282
+msgid "3 Hours"
+msgstr ""
+
+#: includes/options.php:283
+msgid "6 Hours"
+msgstr ""
+
+#: includes/options.php:284
+msgid "12 Hours"
+msgstr ""
+
+#: includes/options.php:285
+msgid "1 Day"
+msgstr ""
+
+#: includes/options.php:286
+msgid "2 Days"
+msgstr ""
+
+#: includes/options.php:287
+msgid "1 Week"
+msgstr ""
+
+#: includes/options.php:339
+msgid ""
+"Select a Facebook page to display reviews. You can only display reviews for "
+"pages that you are an administrator of."
+msgstr ""
+
+#: includes/options.php:342
+msgid ""
+"The title text appears at the very top of the widget above all other "
+"elements."
+msgstr ""
+
+#: includes/options.php:345
+msgid "Limit the number of reviews displayed for this business to a set number."
+msgstr ""
+
+#: includes/options.php:348
+msgid "Filter bad reviews to prevent them from displaying."
+msgstr ""
+
+#: includes/options.php:351
+msgid ""
+"Disable the individual star rating and date per each review. Useful for "
+"certain feeds and output situations."
+msgstr ""
+
+#: includes/options.php:354
+msgid "Hide ratings with no review text."
+msgstr ""
+
+#: includes/options.php:357
+msgid "Customize the width and height of the business' Facebook profile image."
+msgstr ""
+
+#: includes/options.php:360
+msgid ""
+"Disable the main business information profile image, name, rating, address "
+"and phone (if enabled). Useful for displaying only maps and ratings in the "
+"widget."
+msgstr ""
+
+#: includes/options.php:363
+msgid ""
+"Caching data will save Facebook data to your database in order to speed up "
+"response times and conserve API requests. The suggested settings is 1 Day."
+msgstr ""
+
+#: includes/options.php:366
+msgid ""
+"The title output is content within the 'Widget Title' field above. "
+"Disabling the title output may be useful for some themes."
+msgstr ""
+
+#: includes/options.php:369
+msgid "Display a Facebook style Google Maps with a marker on the business location."
+msgstr ""
+
+#: includes/options.php:372
+msgid ""
+"This option prevents the map from zooming when a user is using a mouse "
+"scrolling over it."
+msgstr ""
+
+#: includes/options.php:375
+msgid ""
+"This option will add target='_blank' to the widget's links. This is useful "
+"to keep users on your website."
+msgstr ""
+
+#: includes/options.php:378
+msgid ""
+"This option will add rel='nofollow' to the widget's outgoing links. This "
+"option may be useful for SEO."
+msgstr ""
+
+#: includes/shortcode-generator.php:198
+msgid ""
+"<strong>Edit Active Shortcode:</strong> Customize the options for this "
+"shortcode by adjusting the options below."
+msgstr ""
+
+#: includes/shortcode-generator.php:204 includes/shortcode-generator.php:207
+msgid "Select a Facebook Page"
+msgstr ""
+
+#: includes/shortcode-generator.php:218
+msgid "The Facebook page is set for this shortcode."
+msgstr ""
+
+#: includes/shortcode-generator.php:223
+msgid "%1$sToggle Additional Shortcode Options%2$s (all optional)"
+msgstr ""
+
+#: includes/shortcode-generator.php:231
+msgid "Name"
+msgstr ""
+
+#: includes/shortcode-generator.php:232
+msgid "Option(s)"
+msgstr ""
+
+#: includes/shortcode-generator.php:238
+msgid "Title:"
+msgstr ""
+
+#: includes/shortcode-generator.php:241
+msgid "Enter a title..."
+msgstr ""
+
+#: includes/shortcode-generator.php:247
+msgid "Review Options"
+msgstr ""
+
+#: includes/shortcode-generator.php:253
+msgid "Minimum Review Rating:"
+msgstr ""
+
+#: includes/shortcode-generator.php:258
+msgid "none"
+msgstr ""
+
+#: includes/shortcode-generator.php:280 includes/widget-form.php:87
+msgid "Limit Number of Reviews:"
+msgstr ""
+
+#: includes/shortcode-generator.php:290
+msgid "Hide Star Rating & Date"
+msgstr ""
+
+#: includes/shortcode-generator.php:299 includes/widget-form.php:99
+msgid "Hide Blank Reviews"
+msgstr ""
+
+#: includes/shortcode-generator.php:308
+msgid "Display Options"
+msgstr ""
+
+#: includes/shortcode-generator.php:314
+msgid "Business Profile Image Size:"
+msgstr ""
+
+#: includes/shortcode-generator.php:334 includes/widget-form.php:134
+msgid "Display Business Address"
+msgstr ""
+
+#: includes/shortcode-generator.php:343 includes/widget-form.php:139
+msgid "Display Business Phone Number"
+msgstr ""
+
+#: includes/shortcode-generator.php:352 includes/widget-form.php:146
+msgid "Hide Business Information"
+msgstr ""
+
+#: includes/shortcode-generator.php:362
+msgid "Google Map Options"
+msgstr ""
+
+#: includes/shortcode-generator.php:368 includes/widget-form.php:159
+msgid "Display Google Map"
+msgstr ""
+
+#: includes/shortcode-generator.php:377 includes/widget-form.php:166
+msgid "Disable Map Scroll"
+msgstr ""
+
+#: includes/shortcode-generator.php:386 includes/widget-form.php:172
+msgid "Map Position"
+msgstr ""
+
+#: includes/shortcode-generator.php:389 includes/widget-form.php:176
+msgid "Above Results"
+msgstr ""
+
+#: includes/shortcode-generator.php:391 includes/widget-form.php:178
+msgid "Below Results"
+msgstr ""
+
+#: includes/shortcode-generator.php:398
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/shortcode-generator.php:404
+msgid "Cache Response"
+msgstr ""
+
+#: includes/shortcode-generator.php:431 includes/widget-form.php:222
+msgid "Disable Title Output"
+msgstr ""
+
+#: includes/shortcode-generator.php:440 includes/widget-form.php:228
+msgid "Open Links in New Window"
+msgstr ""
+
+#: includes/shortcode-generator.php:449
+msgid "Add rel=\"nofollow\" to Links"
+msgstr ""
+
+#: includes/shortcode-generator.php:463
+msgid "Create Shortcode"
+msgstr ""
+
+#: includes/shortcode-generator.php:464
+msgid "Cancel"
+msgstr ""
+
+#: includes/template-parts/business-info.php:55
+#: includes/template-parts/reviews.php:81
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/template-parts/business-info.php:63
+msgid " reviews"
+msgstr ""
+
+#: includes/template-parts/business-info.php:67
+msgid "Be the first to review"
+msgstr ""
+
+#: includes/template-parts/business-info.php:75
+msgid "on Facebook"
+msgstr ""
+
+#: includes/widget-form.php:12
+msgid "Widget Title"
+msgstr ""
+
+#: includes/widget-form.php:21
+msgid "Business Page"
+msgstr ""
+
+#: includes/widget-form.php:32
+msgid "Pages not showing?"
+msgstr ""
+
+#: includes/widget-form.php:33
+msgid "in Settings"
+msgstr ""
+
+#: includes/widget-form.php:39
+msgid "Display Business Reviews"
+msgstr ""
+
+#: includes/widget-form.php:46
+msgid "Review Options:"
+msgstr ""
+
+#: includes/widget-form.php:52
+msgid "Minimum Review Rating"
+msgstr ""
+
+#: includes/widget-form.php:58
+msgid "No filter"
+msgstr ""
+
+#: includes/widget-form.php:62
+msgid "5 Stars"
+msgstr ""
+
+#: includes/widget-form.php:66
+msgid "4 Stars"
+msgstr ""
+
+#: includes/widget-form.php:70
+msgid "3 Stars"
+msgstr ""
+
+#: includes/widget-form.php:74
+msgid "2 Stars"
+msgstr ""
+
+#: includes/widget-form.php:78
+msgid "1 Star"
+msgstr ""
+
+#: includes/widget-form.php:94
+msgid "Hide Star Rating and Date"
+msgstr ""
+
+#: includes/widget-form.php:110
+msgid "Display Options:"
+msgstr ""
+
+#: includes/widget-form.php:116
+msgid "Business Profile Image Size"
+msgstr ""
+
+#: includes/widget-form.php:152
+msgid "Google Map Options:"
+msgstr ""
+
+#: includes/widget-form.php:186
+msgid "Advanced Options:"
+msgstr ""
+
+#: includes/widget-form.php:192
+msgid "Cache Data"
+msgstr ""
+
+#: includes/widget-form.php:214
+msgid "Clear Cache"
+msgstr ""
+
+#: includes/widget-form.php:233
+msgid "No Follow Links"
+msgstr ""
+
+#: includes/widget-form.php:239
+msgid "Plugin Documentation"
+msgstr ""
+
+#: includes/widget-form.php:240
+msgid "Priority Support"
+msgstr ""
+
+#: includes/widget.php:60
+msgid "Display Facebook business ratings and reviews on your website."
+msgstr ""
+
+#: includes/widget.php:209
+msgid "No results were returned from Facebook for this business."
+msgstr ""
+
+#: includes/widget.php:416
+msgid ""
+"Please input your Facebook API information in the %1$splugin settings%2$s "
+"page prior to enabling Facebook Reviews Pro."
+msgstr ""
+
+#: includes/widget.php:514
+msgid ""
+"The default Facebook API has exhausted its daily limit. Please enable your "
+"own API Key in your Facebook Reviews Pro settings."
+msgstr ""
+
+#: includes/widget.php:516
+msgid ""
+"<strong>Error:</strong> Business information is unavailable. Either you "
+"mistyped the Facebook biz ID or the business does not have any reviews."
+msgstr ""
+
+#: includes/widget.php:584
+msgid "Cache cleared"
+msgstr ""
+
+#: includes/widget.php:587
+msgid "Error: Transient ID not set. Cache not cleared"
+msgstr ""
+
+#: licence/classes/EDD_SL_Plugin_Updater.php:214
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: licence/classes/EDD_SL_Plugin_Updater.php:221
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: licence/classes/EDD_SL_Plugin_Updater.php:310
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: licence/classes/EDD_SL_Plugin_Updater.php:310
+msgid "Error"
+msgstr ""
+
+#: licence/licence.php:256
+msgid "Plugin License?"
+msgstr ""
+
+#: licence/licence.php:263
+msgid "License Status:"
+msgstr ""
+
+#: licence/licence.php:266
+msgid " Days Remaining"
+msgstr ""
+
+#: licence/licence.php:273
+msgid ""
+"Your license is expiring soon. Would you like to renew your license at 25% "
+"off the original price?"
+msgstr ""
+
+#: licence/licence.php:278
+msgid "License Expiration:"
+msgstr ""
+
+#: licence/licence.php:281
+msgid "License Owner:"
+msgstr ""
+
+#: licence/licence.php:285
+msgid "License Email:"
+msgstr ""
+
+#: licence/licence.php:289
+msgid "License Payment ID:"
+msgstr ""
+
+#: licence/licence.php:294
+msgid "Your license is active and you are receiving updates."
+msgstr ""
+
+#: licence/licence.php:301
+msgid ""
+"The license you entered has reached the activation limit. To purchase more "
+"licenses please visit WordImpress."
+msgstr ""
+
+#: licence/licence.php:305
+msgid ""
+"There was a problem with the license you entered. Please check that your "
+"license key is active and valid then reenter it below. If you are having "
+"trouble please contact support for assistance."
+msgstr ""
+
+#: licence/licence.php:309
+msgid ""
+"Activate your license to receive automatic plugin updates for the life of "
+"your license."
+msgstr ""
+
+#: licence/licence.php:320
+msgid "Enter license key here"
+msgstr ""
+
+#: licence/licence.php:322
+msgid "Your licence is active and valid."
+msgstr ""
+
+#: licence/licence.php:328
+msgid "Deactivate License"
+msgstr ""
+
+#: licence/licence.php:332
+msgid "Activate License"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easily display Facebook page reviews and ratings with a simple and "
+"intuitive WordPress widget and shortcode."
+msgstr ""

@@ -1,0 +1,211 @@
+[id^=fb-widget] .fb-widget-clearfix {
+  *zoom: 1; }
+  [id^=fb-widget] .fb-widget-clearfix:before, [id^=fb-widget] .fb-widget-clearfix:after {
+    display: table;
+    line-height: 0;
+    content: ""; }
+  [id^=fb-widget] .fb-widget-clearfix:after {
+    clear: both; }
+
+[id^=fb-widget] a {
+  text-decoration: none;
+  box-shadow: none;
+  color: #007acc;
+  border: none; }
+  [id^=fb-widget] a:focus {
+    outline: none; }
+
+[id^=fb-widget].facebook-widget-slim {
+  /**
+ * SASS for when the widget is in small width containers
+ */ }
+  [id^=fb-widget].facebook-widget-slim .biz-img-wrap {
+    float: none;
+    width: 100%;
+    margin: 0;
+    text-align: center; }
+    [id^=fb-widget].facebook-widget-slim .biz-img-wrap > img {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto 15px; }
+  [id^=fb-widget].facebook-widget-slim .facebook-business-info {
+    margin-bottom: 25px; }
+    [id^=fb-widget].facebook-widget-slim .facebook-business-info.fwp-size-40 .fb-widget-business-info, [id^=fb-widget].facebook-widget-slim .facebook-business-info.fwp-size-60 .fb-widget-business-info, [id^=fb-widget].facebook-widget-slim .facebook-business-info.fwp-size-80 .fb-widget-business-info, [id^=fb-widget].facebook-widget-slim .facebook-business-info.fwp-size-100 .fb-widget-business-info {
+      margin: 0; }
+  [id^=fb-widget].facebook-widget-slim .facebook-aggregate-rating {
+    height: auto; }
+    [id^=fb-widget].facebook-widget-slim .facebook-aggregate-rating .review-count {
+      width: 100%;
+      float: none;
+      display: block; }
+  [id^=fb-widget].facebook-widget-slim .facebook-logo-link-wrap {
+    float: left;
+    line-height: 24px;
+    height: 24px; }
+
+/**
+ * Styling for display Facebook Reviews Pro
+ */
+[id^=fb-widget] .facebook-map-container {
+  position: relative;
+  max-width: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0 0 20px; }
+
+[id^=fb-widget] .facebook-map {
+  width: 100%;
+  height: 100%;
+  min-height: 250px; }
+
+[id^=fb-widget] .facebook-business-info {
+  border-bottom: 2px solid #EBEBEB;
+  padding: 0;
+  margin: 0 0 20px; }
+  [id^=fb-widget] .facebook-business-info.fbw-hide-reviews {
+    border-bottom: none; }
+  [id^=fb-widget] .facebook-business-info .biz-img-wrap {
+    float: left;
+    margin: 0; }
+  [id^=fb-widget] .facebook-business-info .facebook-business-name-wrap {
+    line-height: 22px;
+    font-weight: bold;
+    margin: 0 0 5px;
+    font-size: 18px; }
+  [id^=fb-widget] .facebook-business-info .facebook-logo-link-wrap {
+    height: 14px;
+    margin: 6px 0 0 2px;
+    line-height: 12px; }
+    [id^=fb-widget] .facebook-business-info .facebook-logo-link-wrap img {
+      box-shadow: none; }
+  [id^=fb-widget] .facebook-business-info .facebook-review-rating {
+    margin-left: 0;
+    margin-right: 5px; }
+  [id^=fb-widget] .facebook-business-info .review-count, [id^=fb-widget] .facebook-business-info .no-reviews-link {
+    font-style: italic;
+    font-size: 13px;
+    line-height: 24px;
+    height: 24px; }
+  [id^=fb-widget] .facebook-business-info.fwp-size-40 .fb-widget-business-info {
+    margin: 0 0 20px 55px; }
+  [id^=fb-widget] .facebook-business-info.fwp-size-60 .fb-widget-business-info {
+    margin: 0 0 20px 75px; }
+  [id^=fb-widget] .facebook-business-info.fwp-size-80 .fb-widget-business-info {
+    margin: 0 0 20px 95px; }
+  [id^=fb-widget] .facebook-business-info.fwp-size-100 .fb-widget-business-info {
+    margin: 0 0 20px 115px; }
+  [id^=fb-widget] .facebook-business-info.fbw-hide-reviews .fb-widget-business-info {
+    border-bottom: none; }
+  [id^=fb-widget] .facebook-business-info .facebook-address-wrap {
+    margin: 0 0 25px; }
+    [id^=fb-widget] .facebook-business-info .facebook-address-wrap address {
+      margin: 0;
+      padding: 0; }
+
+[id^=fb-widget] .facebook-business-reviews {
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 0 20px 0 0; }
+
+[id^=fb-widget] .facebook-review-excerpt {
+  margin-top: 10px; }
+
+[id^=fb-widget] .facebook-review {
+  margin: 0 0 15px; }
+
+[id^=fb-widget] .fb-widget-reviewer-avatar {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0; }
+
+[id^=fb-widget] .fb-widget-rating-wrap {
+  overflow: hidden;
+  clear: none;
+  margin: 0 0 0 65px;
+  line-height: 1; }
+  [id^=fb-widget] .fb-widget-rating-wrap .facebook-review-name {
+    font-weight: bold;
+    display: block;
+    margin: 0 0 8px; }
+
+[id^=fb-widget] .facebook-review-rating {
+  background: #4791FF;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-style: normal;
+  white-space: nowrap;
+  line-height: 20px;
+  display: inline-block;
+  margin: 0; }
+
+[id^=fb-widget] .review-time {
+  font-style: italic;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 0 0 4px;
+  line-height: 24px;
+  height: 24px; }
+
+[id^=fb-widget] .facebook-aggregate-rating {
+  line-height: 24px;
+  height: 24px; }
+
+[id^=fb-widget].facebook-widget-wide .review-time {
+  display: inline-block;
+  clear: none;
+  line-height: 24px;
+  height: 24px;
+  margin: 0 0 0 3px; }
+
+@media screen and (max-width: 320px) {
+  [id^=fb-widget] {
+    /**
+ * SASS for when the widget is in small width containers
+ */ }
+    [id^=fb-widget] .biz-img-wrap {
+      float: none;
+      width: 100%;
+      margin: 0;
+      text-align: center; }
+      [id^=fb-widget] .biz-img-wrap > img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 15px; }
+    [id^=fb-widget] .facebook-business-info {
+      margin-bottom: 25px; }
+      [id^=fb-widget] .facebook-business-info.fwp-size-40 .fb-widget-business-info, [id^=fb-widget] .facebook-business-info.fwp-size-60 .fb-widget-business-info, [id^=fb-widget] .facebook-business-info.fwp-size-80 .fb-widget-business-info, [id^=fb-widget] .facebook-business-info.fwp-size-100 .fb-widget-business-info {
+        margin: 0; }
+    [id^=fb-widget] .facebook-aggregate-rating {
+      height: auto; }
+      [id^=fb-widget] .facebook-aggregate-rating .review-count {
+        width: 100%;
+        float: none;
+        display: block; }
+    [id^=fb-widget] .facebook-logo-link-wrap {
+      float: left;
+      line-height: 24px;
+      height: 24px; } }
+
+[id^=fb-widget].facebook-widget-super-slim .fb-widget-rating-wrap {
+  float: none;
+  margin: 0; }
+
+[id^=fb-widget].facebook-widget-super-slim .fb-widget-reviewer-avatar {
+  float: none;
+  margin: 0 0 8px; }
+
+[id^=fb-widget].facebook-widget-super-slim .review-count {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.3;
+  height: auto; }
+
+[id^=fb-widget].facebook-widget-super-slim .facebook-aggregate-rating .review-count {
+  margin: 4px 0; }
+
+/*# sourceMappingURL=facebook-widget-pro.css.map */

@@ -1,0 +1,37 @@
+//-------------------------------
+// Facebook Widget Frontend: General SCSS
+//-------------------------------
+[id^=fb-widget] {
+
+  //Clearfix helper
+  .fb-widget-clearfix {
+
+	*zoom: 1;
+
+	&:before, &:after {
+	  display: table;
+	  line-height: 0;
+	  content: "";
+	}
+
+	&:after {
+	  clear: both;
+	}
+  }
+
+  a {
+	text-decoration: none;
+	box-shadow: none;
+	color: #007acc;
+	border:none;
+
+	&:focus {
+	  outline: none;
+	}
+  }
+
+  &.facebook-widget-slim {
+	@import '_slim';
+  }
+
+}

@@ -1,0 +1,36 @@
+//-------------------------------
+// Facebook Widget Frontend: Responsive SCSS
+//-------------------------------
+
+//Review TOP
+[id^=fb-widget] {
+  @media screen and (max-width: 320px) {
+	@import '_slim';
+  }
+}
+
+//Super Slim
+[id^=fb-widget].facebook-widget-super-slim {
+
+  .fb-widget-rating-wrap {
+	float: none;
+	margin: 0;
+  }
+
+  .fb-widget-reviewer-avatar {
+	float:none;
+	margin: 0 0 8px;
+  }
+
+  .review-count {
+	font-style: italic;
+	font-size: 13px;
+	line-height: 1.3;
+	height:auto;
+  }
+
+  .facebook-aggregate-rating .review-count {
+	margin: 4px 0;
+  }
+
+}

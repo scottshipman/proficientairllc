@@ -1,0 +1,46 @@
+/***********************************
+Licensing
+***********************************/
+
+.licence-input {
+	background: url('../img/inactive.png') no-repeat 98.5% center #FFF;
+	clear: both;
+	display: block;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	margin-bottom: 7px;
+	width: 420px;
+	padding: 6px;
+	max-width: 100%;
+}
+
+.licence-status {
+	float: left;
+}
+
+.licence-hidden {
+	display: none !important;
+}
+
+.register-licence-ajax-spinner {
+	margin: 0 0 0 5px;
+	position: relative;
+	top: 3px;
+}
+
+.licence-input {
+	margin: 10px 0 3px;
+}
+
+.licence-input.license-active {
+	background: url('../img/active.png') no-repeat 98.5% center #FFF;
+	max-width: 100%;
+	padding: 6px 27px 6px 2px;
+}
+
+label.licence-label {
+	margin: 0 0 5px;
+	display: block;
+	cursor: pointer;
+	font-style:italic;
+}

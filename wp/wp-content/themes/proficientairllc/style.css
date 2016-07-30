@@ -928,7 +928,7 @@ body.responsive.layout-full #page-wrapper .full-container {
   color: #ffffff;
 }
 .main-navigation ul li a {
-  padding: 20px 35px;
+  padding: 20px 20px;
   line-height: 1em;
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2584,7 +2584,7 @@ body.layout-full {
   margin-bottom: 0;
 }
 .widget_circleicon-widget .circle-icon-box a.more-button {
-  display: block;
+  display: none;
   text-decoration: none;
   color: #3b3b3b;
   font-weight: bold;
@@ -3779,13 +3779,19 @@ span.jwcontrols span button {
 }
 
 .katb_test_text_basic {
+    float:none;
+
+}
+
+.katb_widget_box_basic, .facebook-review {
     background: #f9f9f9;
     border-left: 10px solid #ccc;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
+    display: inline-block;
 }
-.katb_test_text_basic:before {
+.katb_test_text_basic:before, .facebook-review-excerpt:before {
     color: #ccc;
     content: open-quote;
     font-size: 4em;
@@ -3793,7 +3799,7 @@ span.jwcontrols span button {
     margin-right: 0.25em;
     vertical-align: -0.4em;
 }
-.katb_test_text_basic:after {
+.katb_test_text_basic:after, .facebook-review-excerpt:after {
     color: #ccc;
     content: close-quote;
     font-size: 4em;
@@ -3802,10 +3808,75 @@ span.jwcontrols span button {
     vertical-align: -0.6em;
 }
 
-.katb_test_text_basic p {
+.katb_test_text_basic p, .facebook-review-excerpt p {
     display: inline;
 }
 
 .proficientair-testimonial-form h3{
   font-size: 1em;
+}
+
+
+
+.fb-widget-top.fb-widget-clearfix{
+    float: left;
+    position: relative;
+    margin-right: 2em;
+}
+
+.facebook-review .fb-widget-clearfix {
+
+}
+
+.entry-content img {
+    width:60px;
+}
+
+.katb_centered_image_meta_top,
+.katb_title_rating_wrap.center,
+.katb_testimonial_wrap.center {
+    border:none;
+}
+
+.katb_centered_meta_top_wrap {
+    float:left;
+}
+
+.katb_widget_wrap_basic {
+    font-size:13px;
+}
+.katb_widget_box_basic {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    width:auto;
+}
+
+.katb_widget_wrap_basic .katb_widget_box_basic {
+    border-bottom: none;
+    padding:10px;
+}
+
+.katb_image_meta_top {
+    width:23%;
+    margin-right: 1.3em;
+
+}
+
+.katb_testimonial_wrap {
+    float: left;
+    width: 72%;
+    line-height: 1.3em;
+}
+
+.katb_title_rating_wrap {
+    display: none;
+}
+
+.katb_test_text_basic p, .katb_test_text p {
+    line-height:1.6em!important;
+}
+
+.katb_meta_top_wrap.widget_meta {
+    clear:both;
+    width:auto!important;
 }
