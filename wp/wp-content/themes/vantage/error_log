@@ -1,0 +1,1 @@
+[28-Jul-2016 08:16:03 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/scottshi/public_html/proficientairllc/wp/wp-content/themes/vantage/index.php on line 16

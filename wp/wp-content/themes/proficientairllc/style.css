@@ -2574,6 +2574,11 @@ body.layout-full {
   margin-bottom: 0.8em;
   margin-top: 0;
 }
+
+.widget_circleicon-widget .circle-icon-box p {
+display:none
+}
+
 .widget_circleicon-widget .circle-icon-box p.text {
   margin: 0;
   color: #5e5e5e;
@@ -3509,6 +3514,7 @@ body.layout-full {
     padding-left: 3px;
     padding-right: 3px;
   }
+
   body.responsive.woocommerce-page #content table.cart .actions .coupon {
     float: none;
   }
@@ -3880,6 +3886,10 @@ span.jwcontrols span button {
     clear:both;
     width:auto!important;
 }
+
+  .cctor_wrap_link {
+	text-decoration:none;
+  }
 
 @media (min-width: 765px) {
     .column-borders {
